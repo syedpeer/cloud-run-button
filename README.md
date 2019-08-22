@@ -1,5 +1,9 @@
 # Readme
 
+**Note:** see [cloud-run-button-dockerfile](https://github.com/sanderhahn/cloud-run-button-dockerfile) that is more efficient because it uses an optimized Dockerfile.
+
+*Proof of concept to see how buildpacks.io is working*
+
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/sanderhahn/cloud-run-button)
 
 Deploys Sapper without a Dockerfile on Google Cloud Run by using [Buildpacks.io](https://buildpacks.io/).
