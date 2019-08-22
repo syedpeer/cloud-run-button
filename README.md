@@ -34,3 +34,11 @@ docker rm cloud-run-button
 # clean up build cache
 docker volume prune -f
 ```
+
+## References
+
+- [Introducing Cloud Run Button](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-button-click-to-deploy-your-git-repos-to-google-cloud)
+- https://github.com/GoogleCloudPlatform/cloud-run-button
+- https://docs.cloudfoundry.org/buildpacks/node/index.html
+- https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
+- https://blog.heroku.com/buildpacks-go-cloud-native
