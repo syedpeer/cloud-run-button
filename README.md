@@ -11,6 +11,7 @@ Sapper uses an `npm build` command that is now being triggered using the `postin
 
 Google uses the Heroku buildpacks (`heroku/buildpacks`) to build an image which is pretty heavy at 770MB.
 The Cloud Foundry buildpacks (`cloudfoundry/cnb:bionic`) build an image that much smaller at 170MB.
+Adding a custom [Dockerfile](https://github.com/sanderhahn/cloud-run-button-dockerfile/blob/master/Dockerfile) gives you full control so you can build a minimized image at 45MB.
 
 You can emulate the build process that Google performs locally by installing [pack](https://github.com/buildpack/pack):
 
@@ -40,5 +41,4 @@ docker volume prune -f
 - [Introducing Cloud Run Button](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-button-click-to-deploy-your-git-repos-to-google-cloud)
 - https://github.com/GoogleCloudPlatform/cloud-run-button
 - https://docs.cloudfoundry.org/buildpacks/node/index.html
-- https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
 - https://blog.heroku.com/buildpacks-go-cloud-native
